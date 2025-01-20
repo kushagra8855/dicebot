@@ -3,5 +3,4 @@ botasaurus
 loguru
 selenium
 pandas
-psutil
 subprocess
