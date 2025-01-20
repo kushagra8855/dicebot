@@ -1,77 +1,191 @@
-# General
-psutil
-
-# Web Scraping
-requests
-beautifulsoup4
-lxml
-selenium
-webdriver-manager
-
-# LinkedIn API
-linkedin-api
-selenium
-beautifulsoup4
-
-# Browser Automation (for Selenium)
-chromedriver-binary  # Or geckodriver-binary for Firefox
-undetected-chromedriver
-
-# Data Handling and Analysis
-pandas
-numpy
-
-# Authentication and Security
-requests-oauthlib
-
-# Rate Limiting
-#python-ratelimit
-
-# Proxy Management (Optional)
-requests[socks]
-pysocks
-
-# Web Asynchronous Framework
-aiohttp
-asyncio
-
-# Image Processing (if scraping images)
-#pillow
-
-# Data Storage and Management
-# Choose one or more based on your needs
-#sqlite-utils  # For simple SQLite databases
-#psycopg2  # For PostgreSQL
-#mysqlclient # For MySQL
-#pymongo  # For MongoDB
-
-# Cloud Storage (Optional)
-# Choose one or more based on your needs
-#boto3  # For AWS S3
-#google-cloud-storage  # For Google Cloud Storage
-#azure-storage-blob  # For Azure Blob Storage
-
-# Data Serialization
-# Choose one or more based on your needs
-jsonpickle  # For serializing objects to JSON
-# pickle  # Built-in Python module for object serialization
-
-# Logging
-loguru
-
-# Configuration Management
-python-dotenv
-
-# Command-line Interface Tools
-click
-typer
-
-# AI and NLP (if needed)
-#transformers
-#torch
-#scikit-learn
-
-# Other Utilities
-tqdm  # For progress bars
-#fake-useragent  # For generating random user agents
-urllib3
+aiohappyeyeballs==2.4.3
+aiohttp==3.10.10
+aiosignal==1.3.1
+altair==5.5.0
+annotated-types==0.7.0
+anyio==4.8.0
+asgiref==3.8.1
+asyncio==3.4.3
+attrs==24.2.0
+beautifulsoup4==4.12.3
+blinker==1.9.0
+bota==4.0.71
+botasaurus==4.0.76
+botasaurus_api==4.0.9
+botasaurus_driver==4.0.66
+botasaurus_proxy_authentication==1.0.16
+botasaurus_requests==4.0.38
+Brotli==1.1.0
+CacheControl==0.14.0
+cachetools==5.4.0
+certifi==2023.7.22
+cffi==1.17.1
+chardet==5.2.0
+charset-normalizer==3.3.1
+chrome_extension_python==1.0.1
+chromedriver-binary==134.0.6957.0.0
+click==8.1.7
+close_chrome==4.0.40
+colorama==0.4.6
+contourpy==1.1.1
+cryptography==43.0.0
+cycler==0.12.1
+dataclasses-json==0.6.7
+defusedxml==0.7.1
+Deprecated==1.2.14
+distro==1.9.0
+Django==5.0.3
+docstring_parser==0.16
+et_xmlfile==2.0.0
+firebase-admin==6.5.0
+firestore==0.0.8
+fonttools==4.43.1
+fpdf2==2.8.1
+frozenlist==1.5.0
+gevent==24.11.1
+geventhttpclient==2.3.3
+gitdb==4.0.12
+GitPython==3.1.44
+google-api-core==2.19.1
+google-api-python-client==2.141.0
+google-auth==2.32.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+google-cloud-aiplatform==1.60.0
+google-cloud-bigquery==3.25.0
+google-cloud-compute==1.19.2
+google-cloud-core==2.4.1
+google-cloud-firestore==2.17.2
+google-cloud-pubsub==2.26.1
+google-cloud-resource-manager==1.12.4
+google-cloud-run==0.10.13
+google-cloud-storage==2.18.0
+google-crc32c==1.5.0
+google-resumable-media==2.7.1
+googleapis-common-protos==1.63.2
+greenlet==3.1.1
+grpc-google-iam-v1==0.13.1
+grpcio==1.65.1
+grpcio-status==1.62.2
+h11==0.14.0
+httpcore==1.0.7
+httplib2==0.22.0
+httpx==0.28.1
+httpx-sse==0.4.0
+idna==3.4
+importlib_metadata==8.4.0
+iso8601==2.1.0
+javascript_fixes==1.1.29
+Jinja2==3.1.5
+jiter==0.8.2
+joblib==1.4.2
+jsonpatch==1.33
+jsonpickle==4.0.1
+jsonpointer==3.0.0
+jsonschema==4.23.0
+jsonschema-specifications==2024.10.1
+kfp==2.8.0
+kfp-pipeline-spec==0.3.0
+kfp-server-api==2.0.5
+kiwisolver==1.4.5
+kubernetes==26.1.0
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-core==0.3.29
+langchain-text-splitters==0.3.5
+langsmith==0.2.10
+linkedin-api==2.3.1
+loguru==0.7.3
+lxml==5.3.0
+mailjet-rest==1.3.4
+markdown-it-py==3.0.0
+MarkupSafe==3.0.2
+marshmallow==3.25.1
+matplotlib==3.8.0
+mdurl==0.1.2
+mpl-finance==0.10.1
+mplfinance==0.12.10b0
+msgpack==1.0.8
+multidict==6.1.0
+mypy-extensions==1.0.0
+narwhals==1.22.0
+neo4j==5.20.0
+numpy==1.26.1
+oauthlib==3.2.2
+openai==1.59.7
+openpyxl==3.1.5
+opentelemetry-api==1.27.0
+opentelemetry-sdk==1.27.0
+opentelemetry-semantic-conventions==0.48b0
+orjson==3.10.14
+outcome==1.3.0.post0
+packaging==23.2
+pandas==2.1.1
+pandas-datareader==0.10.0
+Pillow==10.1.0
+propcache==0.2.0
+proto-plus==1.24.0
+protobuf==4.25.4
+psutil==6.1.1
+pyarrow==18.1.0
+pyasn1==0.6.0
+pyasn1_modules==0.4.0
+pycparser==2.22
+pydantic==2.8.2
+pydantic-settings==2.7.1
+pydantic_core==2.20.1
+pydeck==0.9.1
+pygame==2.5.2
+Pygments==2.19.1
+PyJWT==2.9.0
+pyparsing==3.1.1
+PySocks==1.7.1
+python-dateutil==2.8.2
+python-dotenv==1.0.1
+pytz==2023.3.post1
+PyVirtualDisplay==3.0
+PyYAML==6.0.1
+referencing==0.35.1
+reportlab==4.2.5
+requests==2.32.3
+requests-oauthlib==2.0.0
+requests-toolbelt==1.0.0
+rich==13.9.4
+rpds-py==0.22.3
+rsa==4.9
+selenium==4.27.1
+shapely==2.0.5
+shellingham==1.5.4
+six==1.16.0
+smmap==5.0.2
+sniffio==1.3.1
+sortedcontainers==2.4.0
+soupsieve==2.6
+SQLAlchemy==2.0.37
+sqlparse==0.4.4
+streamlit==1.41.1
+tabulate==0.9.0
+tenacity==9.0.0
+toml==0.10.2
+tornado==6.4.2
+tqdm==4.67.1
+trio==0.28.0
+trio-websocket==0.11.1
+typer==0.15.1
+typing-inspect==0.9.0
+typing_extensions==4.12.2
+tzdata==2023.3
+undetected-chromedriver==3.5.5
+uritemplate==4.1.1
+urllib3==2.2.3
+watchdog==6.0.0
+webdriver-manager==4.0.2
+websocket-client==1.8.0
+websockets==14.1
+win32_setctime==1.2.0
+wrapt==1.16.0
+wsproto==1.2.0
+yarl==1.16.0
+zipp==3.20.2
+zope.event==5.0
+zope.interface==7.2
