@@ -3,3 +3,4 @@ botasaurus
 loguru
 selenium
 pandas
+chrome_extension_python
