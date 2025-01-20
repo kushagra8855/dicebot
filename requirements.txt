@@ -3,6 +3,5 @@ botasaurus
 loguru
 selenium
 pandas
-hashlib
 psutil
 subprocess
